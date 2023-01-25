@@ -1,8 +1,8 @@
 
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;1,300&family=Gothic+A1:wght@200&family=Permanent+Marker&display=swap');
+Fonts are separated by a & */@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,200&family=Cabin:wght@600&family=Gothic+A1:wght@200&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #05668d   ;

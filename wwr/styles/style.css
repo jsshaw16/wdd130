@@ -1,50 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,200&family=Cabin:wght@600&family=Gothic+A1:wght@200&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
     }
 nav a{
     text-align: center;
-    color:blueviolet;
+    color:rgb(105, 180, 241);
     text-decoration: none;
+    padding: 35px;
+
 }
 
-#hero-msg h1{text-align: center;}
+#hero-msg h1{text-align: center;
+    margin: 50px 0;
+}
 #hero-msg h4{text-align: center;}
 .button-box{text-align: center}
 main section{text-align: center;}
 #background{height: 725px;
-    background-color: #00a896
+    background-color: #61aca5
 }
-body{background-color: #02C39A;}
-header{background-color: rgb(76, 161, 197);}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    font-family:'Asap Condensed', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(197, 112, 76);
+}
 nav a:hover{
-    background-color: bisque;
+    background-color: rgb(224, 202, 176);
     color:rgb(246, 5, 5)
 }
 .book, .join{
     background-color: white;
     color:blueviolet;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{background-color: black;
     color: red}
 
-.msg{background-color: rgb(134, 247, 247);}
-footer{background-color:mediumaquamarine;
-    color:black;
+.msg{background-color: rgb(157, 228, 228);
+    font-size: 1.5em;
+    padding: 35px;
 }
-.home-title{color:darkred ;}
-h4{color:rgb(248, 250, 83)}
-.msg h2{color:rgb(0, 49, 146)}
-.msg p{color:rgb(171, 24, 46)}
+footer{background-color:rgb(185, 148, 105);
+    color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+.home-title{color:darkred ;
+    font-family: 'Cabin', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
+}
+h4{
+    color:rgb(216, 133, 49);
+    margin: 30px 0;
+}
+.msg h2{color:rgb(0, 49, 146);
+    font-family: "Gothic A1" 'Arial Narrow Bold', sans-serif
+}
+.msg p{color:rgb(171, 24, 46);
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+footer .social img{ padding-top: 15px;}
 footer a:hover{
     color:red; 
     text-decoration: none;}
 
 .logo{width: 80px}
-.icon{width: 80px;}
-footer p{font-size: 1.2em;}
+.icon{width: 80px;
+    padding-top: 10px;
+}
+footer p{
+    font-size: 1.2em;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    margin: 20px auto;
+}
 footer p a:hover{
     text-decoration: underline;
-
+}
+#logo_link{
+    padding-top: 5px;
+}
+.river-card, .camping-card, .rapid-card{
+    margin: 200px 0;
+}
+.card-img{border: 10px solid darkgray;}
+main section img{
+    box-sizing: border-box;
 }
